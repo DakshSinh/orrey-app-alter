@@ -12,7 +12,7 @@ const Orrery: React.FC = () => {
   return (
     <Canvas>
       <ambientLight intensity={0.5} />
-      <pointLight position={[10, 10, 10]} />
+      <pointLight position={[10``, 10, 10]} />
       <OrbitControls />
       <Stars />
       <CelestialBody position={[0, 0, 0]} size={1} color="yellow" /> {/* Sun */}
